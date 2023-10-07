@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+#body{
+display : flex;
+justify-content:center;
+align-items:center;
+	height:100vh;
+}
+#btn-container{
+height:200px;
+width:500px;
+background-color:#a164df;
+display:flex;
+justify-content:space-around;
+align-items:center;
+flex-wrap:wrap;
+
+}
+
+
+.btn,.stop{
+	background-color:#663399;
+	color:#e2c8e3;
+	border:none;
+	padding:15px;
+    cursor:pointer;	
+	font-size:10px;
+}
+
+
